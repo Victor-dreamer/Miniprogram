@@ -1,0 +1,2 @@
+<!--pages/profile/profile.wxml-->
+<button open-type='getUserInfo' bindgetuserinfo='handleGetUserInfo'>获取授权</button>

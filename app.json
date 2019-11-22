@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/profile/profile"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00eeff",
+    "navigationBarTitleText": "信管日报",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#00eeff",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "selectedColor": "#ff0000",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "assets/images/tabbar/home.png",
+      "selectedIconPath": "assets/images/tabbar/home_active.png"
+    },
+    {
+      "pagePath": "pages/profile/profile",
+      "text": "个人中心",
+      "iconPath": "assets/images/tabbar/profile.png",
+      "selectedIconPath": "assets/images/tabbar/profile_active.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
+}
